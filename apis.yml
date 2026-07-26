@@ -1,7 +1,26 @@
 aid: fabrion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fabrion.png
 name: Fabrion
-description: Fabrion is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fabrion builds an AI Operating System for industrial manufacturers, applying
+  artificial intelligence to manufacturing operations and the industrial sector. The
+  company is a venture-backed portfolio company of 8vc and is tracked in the API Evangelist
+  network as a company profile. As of this enrichment pass Fabrion publishes a marketing
+  website with AI Lab, Careers, and Contact pages, but exposes no public API, developer
+  portal, documentation, SDKs, packages, MCP server, or other machine-readable developer
+  artifacts. No developer, docs, or api subdomains resolve and no /.well-known/, llms.txt,
+  pricing, or blog surfaces were found. This remains a lead awaiting a real API surface
+  to enrich against.
 url: https://raw.githubusercontent.com/api-evangelist/fabrion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Manufacturing
+- Industrial
+- AI Operating System
+- Automation
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://fabrion.com
+- type: Support
+  url: https://fabrion.com/contact
+- type: Careers
+  url: https://fabrion.com/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
